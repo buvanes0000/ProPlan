@@ -1,0 +1,5 @@
+export {default as Navbar} from "./Navbar"
+export {default as Hero} from "./Hero" 
+export {default as MostPopular} from "./MostPopular"
+export {default as Form } from "./Form"
+export {default as Footer} from "./Footer"

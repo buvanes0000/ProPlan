@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Protest+Strike&family=Reddit+Mono:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Protest+Strike&family=Reddit+Mono:wght@200..900&family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Protest+Riot&family=Protest+Strike&family=Reddit+Mono:wght@200..900&family=Rubik+Doodle+Shadow&display=swap');
+@tailwind base;
+
+
+@tailwind components;
+
+
+
+@tailwind utilities;
+
+
+
+
+
+body {
+    background-color: #EEEEEE;
+    padding: 0;
+    margin: 0;
+    font-family: "Reddit Mono", monospace;
+    letter-spacing: 1px;
+}
+*,*::after, *::before {
+    box-sizing: border-box;
+}
+
+
+svg {
+    width: 40px;
+    height: 20px;
+    object-fit: contain;
+  
+}
+
+li a {
+    transition: all;
+    transition-duration: 0.7s;
+}
+
+#card {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+
+
+
+
+/* CSS */
+.button-34 {
+  background: #3559E0;
+  border-radius: 999px;
+  box-shadow: #3559E0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+.form {
+    background-image: url(./assets/bg.png);
+    height: 20rem;
+}
+
+input {
+    font-size: 0.7rem;
+    width: 100%;
+    padding: 0.5rem;
+    color: black;
+}
+
+.logo-h {
+    font-family: "Rubik Doodle Shadow", system-ui;
+}
+
+.logo-p {
+    font-family: "Protest Guerrilla", sans-serif;
+}
